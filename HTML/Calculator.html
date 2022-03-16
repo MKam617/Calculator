@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>www.calc</title>
+   <link rel="stylesheet" type="text/css" href="../CSS/Css4calc.css">
+   <script src="../JavaScript/Js4calc.js" defer></script>
+</head>
+<body>
+   <p class="title">КАЛЬКУЛЯТОР</p>
+   <div class="main_body">
+      <div id="window">
+         <input disabled type="text" value='0' id="display">
+      </div>
+      <div><button id="c" class="clear_btn" type="button">C</button></div>
+      <div><button id="back" class="clear_btn" type="button">BACK</button></div>
+        <div>
+<!--Таблица кнопок--><table class="tab">
+         <tr>
+            <td class="btn number">7</td>
+            <td class="btn number">8</td>
+            <td class="btn number">9</td>
+            <td class="btn operation_btn">/</td>
+         </tr>
+         <tr>
+            <td class="btn number">4</td>
+            <td class="btn number">5</td>
+            <td class="btn number">6</td>
+            <td class="btn operation_btn">*</td>
+         </tr>
+         <tr>
+            <td class="btn number">1</td>
+            <td class="btn number">2</td>
+            <td class="btn number">3</td>
+            <td class="btn operation_btn">-</td>
+         </tr>
+         <tr>
+            <td class="btn number">0</td>
+            <td class="btn" id="decimate_btn">.</td>
+            <td class="btn operation_btn">=</td>
+            <td class="btn operation_btn">+</td>
+         </tr>
+        </table>
+      </div>
+   </div>
+</body>
+</html>
